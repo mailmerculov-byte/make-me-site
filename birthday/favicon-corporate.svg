@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="NEXUS TECH Новогодний корпоратив">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f3a"/>
+      <stop offset="100%" stop-color="#123a63"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe08a"/>
+      <stop offset="100%" stop-color="#e0a83c"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="11" fill="url(#bg)"/>
+  <g fill="none" stroke="#7fd4ff" stroke-width="1.8" stroke-linecap="round" opacity="0.85">
+    <path d="M24 7v34M10 15l28 18M38 15L10 33"/>
+    <path d="M24 12l-3 3 3 3 3-3-3-3ZM24 33l-3 3 3 3 3-3-3-3ZM14 19l-4 1 1 4 4-1-1-4ZM34 25l-4 1 1 4 4-1-1-4ZM34 19l4 1-1 4-4-1 1-4ZM14 25l4 1-1 4-4-1 1-4Z" fill="#7fd4ff"/>
+  </g>
+  <circle cx="24" cy="24" r="6.5" fill="url(#gold)"/>
+  <circle cx="24" cy="24" r="2.4" fill="#0b1f3a" opacity="0.75"/>
+  <circle cx="24" cy="24" r="10.5" fill="none" stroke="#ffe08a" stroke-width="1.2" opacity="0.45"/>
+</svg>
