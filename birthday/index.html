@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/birthday/favicon-30.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101014" />
+    <meta
+      name="description"
+      content="Приглашение на юбилей Александра: 30 лет, лофт-вечеринка, живой таймер, программа вечера и вишлист подарков."
+    />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('party-palette');
+          var isLight = stored === 'light-pastel';
+          if (!stored) {
+            isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+          }
+          var root = document.documentElement;
+          if (isLight) {
+            root.style.setProperty('--site-bg', '#FAF5EC');
+            root.style.setProperty('--site-text', '#33312C');
+            root.style.setProperty('--site-muted', 'rgba(51, 49, 44, 0.72)');
+            root.style.setProperty('--site-primary', '#D15640');
+            root.style.setProperty('--site-glow', 'rgba(209, 86, 64, 0.3)');
+            root.style.setProperty('--on-accent', '#FFF7EF');
+            root.style.setProperty('--glass-bg', 'rgba(255, 255, 255, 0.6)');
+            root.style.setProperty('--glass-border', 'rgba(51, 49, 44, 0.1)');
+            root.style.setProperty('--hero-overlay', 'rgba(51, 49, 44, 0.55)');
+            root.style.setProperty('--hero-text', '#FFFFFF');
+            root.style.setProperty('--hero-muted', 'rgba(255, 255, 255, 0.78)');
+            root.style.colorScheme = 'light';
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Александр · 30 лет — приглашение на праздник" />
+    <meta
+      property="og:description"
+      content="Юбилей в стиле лофт: живой таймер, программа вечера, дресс-код и вишлист подарков."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Александр · 30 лет — приглашение на праздник</title>
+    <script type="module" crossorigin src="/birthday/assets/main-BxjhzjVm.js"></script>
+    <link rel="stylesheet" crossorigin href="/birthday/assets/main-bc5v_Nk0.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

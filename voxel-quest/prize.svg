@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="Подарок: сундук с сюрпризом">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b143f"/>
+      <stop offset="45%" stop-color="#5c3070"/>
+      <stop offset="78%" stop-color="#b95a72"/>
+      <stop offset="100%" stop-color="#f2a065"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="52%" r="50%">
+      <stop offset="0%" stop-color="#ffd98a" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#ffb765" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff9e7a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a5673d"/>
+      <stop offset="55%" stop-color="#7c4828"/>
+      <stop offset="100%" stop-color="#5b321c"/>
+    </linearGradient>
+    <linearGradient id="woodLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c07f4c"/>
+      <stop offset="100%" stop-color="#8a522e"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe39a"/>
+      <stop offset="50%" stop-color="#e0a83c"/>
+      <stop offset="100%" stop-color="#a9741f"/>
+    </linearGradient>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff6cf"/>
+      <stop offset="45%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#f4975d"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" rx="24" fill="url(#sky)"/>
+
+  <g fill="#fff" opacity="0.75">
+    <circle cx="90" cy="70" r="1.6"/><circle cx="160" cy="140" r="1"/>
+    <circle cx="700" cy="90" r="1.8"/><circle cx="620" cy="180" r="1.1"/>
+    <circle cx="250" cy="60" r="1.2"/><circle cx="540" cy="60" r="1"/>
+    <circle cx="60" cy="240" r="1"/><circle cx="760" cy="270" r="1.4"/>
+    <circle cx="330" cy="110" r="1"/><circle cx="470" cy="140" r="1.2"/>
+  </g>
+
+  <ellipse cx="400" cy="285" rx="300" ry="230" fill="url(#halo)"/>
+
+  <ellipse cx="400" cy="438" rx="205" ry="26" fill="#1b0f2e" opacity="0.45" filter="url(#soft)"/>
+
+  <!-- light rays -->
+  <g stroke="#ffe0a0" stroke-width="3" opacity="0.35" stroke-linecap="round">
+    <path d="M400 210 L300 90"/><path d="M400 210 L500 90"/>
+    <path d="M400 210 L210 170"/><path d="M400 210 L590 170"/>
+  </g>
+
+  <!-- open lid -->
+  <g>
+    <path d="M246 300 L246 252 Q400 176 554 252 L554 300 Z" fill="url(#woodLight)" stroke="#4a2a18" stroke-width="4"/>
+    <path d="M300 280 L300 234 M500 280 L500 234" stroke="url(#metal)" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="300" cy="234" r="4" fill="#fff0c0"/><circle cx="500" cy="234" r="4" fill="#fff0c0"/>
+    <path d="M246 300 Q400 232 554 300" fill="none" stroke="#f0c26a" stroke-width="6"/>
+  </g>
+
+  <!-- inner glow -->
+  <ellipse cx="400" cy="302" rx="126" ry="30" fill="#ffcf76" opacity="0.55" filter="url(#soft)"/>
+
+  <!-- chest body -->
+  <rect x="248" y="298" width="304" height="140" rx="16" fill="url(#wood)" stroke="#4a2a18" stroke-width="4"/>
+  <g stroke="#4a2a18" stroke-width="3" opacity="0.6">
+    <path d="M248 344 H552"/><path d="M248 392 H552"/>
+  </g>
+  <rect x="304" y="298" width="20" height="140" fill="url(#metal)"/>
+  <rect x="476" y="298" width="20" height="140" fill="url(#metal)"/>
+  <g fill="#fff0c0">
+    <circle cx="314" cy="318" r="3.5"/><circle cx="314" cy="420" r="3.5"/>
+    <circle cx="486" cy="318" r="3.5"/><circle cx="486" cy="420" r="3.5"/>
+  </g>
+
+  <!-- coins and crystal -->
+  <g>
+    <ellipse cx="352" cy="296" rx="26" ry="9" fill="#f4c24e" stroke="#b9821f" stroke-width="2"/>
+    <ellipse cx="448" cy="296" rx="26" ry="9" fill="#ffe08a" stroke="#b9821f" stroke-width="2"/>
+    <ellipse cx="400" cy="286" rx="30" ry="11" fill="#ffd166" stroke="#b9821f" stroke-width="2"/>
+    <path d="M400 214 L426 258 L400 296 L374 258 Z" fill="url(#gem)" stroke="#fff3c4" stroke-width="3"/>
+    <path d="M400 214 L400 296 L374 258 Z" fill="#ffe9a8" opacity="0.6"/>
+  </g>
+
+  <!-- lock -->
+  <rect x="380" y="342" width="40" height="48" rx="9" fill="url(#metal)" stroke="#8a5b16" stroke-width="3"/>
+  <circle cx="400" cy="361" r="7" fill="#5b321c"/>
+  <rect x="397" y="363" width="6" height="14" rx="2" fill="#5b321c"/>
+
+  <!-- sparkles -->
+  <g fill="#fff3c4">
+    <path d="M180 200 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 Z"/>
+    <path d="M630 250 l8 20 20 8 -20 8 -8 20 -8 -20 -20 -8 20 -8 Z"/>
+    <path d="M540 130 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z"/>
+    <path d="M240 410 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z"/>
+  </g>
+</svg>
